@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function CardMuseumWarm() {
     return <div className="section-5 bg-yellow-warm lg:h-screen h-auto lg:py-0 py-10 flex justify-evenly pt-4 lg:flex-row flex-col items-center relative">
-        <div className="lg:w-4/5 w-full flex items-end justify-center relative">
+        <div className="w-4/5 flex items-end justify-center relative">
             <div style={{ width: '75%', height: '75%', position: 'relative', paddingBottom: "48%" }}>
                 <Image
                     src={"/images/lukisan_10.png"}

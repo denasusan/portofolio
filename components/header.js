@@ -20,13 +20,13 @@ export default function Header({ tabActive, isPageSearch }) {
                                 {
                                     <div className={`left-10 flex flex-col z-10 px-4 py-3 top-0 rounded-lg transition-all absolute bg-white  ${isMenuOpened == true ? "scale-100" : "scale-0"}`}>
                                         <Link href="/">
-                                            <span className={`${tabActive == 1 ? "text-orange-light-DEFAUL  border-orange-light-DEFAUL border-b-2 shadow-xl pb-1" : "text-green-light"} font-bold`}>Home</span>
+                                            <span className={`${tabActive == 1 ? "text-orange-light-DEFAUL  border-orange-light-DEFAUL border-b-2 shadow-xl " : "text-green-light"} font-bold`}>Home</span>
                                         </Link>
                                         <Link href="/recomend">
-                                            <span className={`${tabActive == 2 ? "text-orange-light-DEFAUL  border-orange-light-DEFAUL border-b-2 shadow-xl pb-1" : "text-green-light"} font-bold`}>Rekomendasi</span>
+                                            <span className={`${tabActive == 2 ? "text-orange-light-DEFAUL  border-orange-light-DEFAUL border-b-2 shadow-xl " : "text-green-light"} font-bold`}>Rekomendasi</span>
                                         </Link>
                                         <Link href="about">
-                                            <span className={`${tabActive == 3 ? "text-orange-light-DEFAUL  border-orange-light-DEFAUL border-b-2 shadow-xl pb-1" : "text-green-light"} font-bold`}>Tentang</span>
+                                            <span className={`${tabActive == 3 ? "text-orange-light-DEFAUL  border-orange-light-DEFAUL border-b-2 shadow-xl " : "text-green-light"} font-bold`}>Tentang</span>
                                         </Link>
                                     </div>
                                 }
@@ -53,7 +53,7 @@ export default function Header({ tabActive, isPageSearch }) {
                     {
                         isPageSearch == true ? "" :
                             <Link href="/search" className=" pb-1 flex lg:border-b-2 border-green-light">
-                                <p className="pr-10 text-14px text-green-light font-semibold lg:visible invisible absolute lg:relative">Cari Museum...</p>
+                                <span className="lg:pr-10 pr-0 lg:scale-100 scale-0 text-14px text-green-light font-semibold lg:visible invisible absolute lg:relative">Cari Museum...</span>
                                 <SearchIcon />
                             </Link>
                     }

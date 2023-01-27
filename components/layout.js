@@ -11,9 +11,7 @@ const Layout = ({ children }) => (
       damping: 20,
     }}
   >
-    <div className="overflow-x-hidden w-full">
-      {children}
-    </div>
+    {children}
   </motion.div>
 );
 export default Layout;
