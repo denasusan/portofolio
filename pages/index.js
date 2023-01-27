@@ -128,7 +128,7 @@ export default function Home() {
           </div>
           <div className="lg:w-1/3 w-full h-full flex flex-col justify-center items-center lg:pl-0 pl-10 pr-10 relative lg:pb-0 pb-10">
             <p className="text-green-light text-center font-bold text-24px lg:text-30px ">Les Femmes d’ Alger (Version O) oleh Pablo Picasso</p>
-            <p className="font-semibold lg:text-16px text-12px">Di masa penjajahan Belanda, keberadaan Museum Geologi berkaitan erat dengan sejarah penyelidikan geologi dan tambang di wilayah Nusantara yang dimulai sejak pertengahan abad ke-17 ....
+            <p className="font-semibold lg:text-16px text-12px">Tahun ini menjadi kebanggaan sendiri bagi Pablo Picasso. Karena, lukisan 'Les Femmes d'Alger' atau berarti 'Perempuan Aljazair yang terjual April lalu menjadi lukisan termahal di 2015. Lukisannya terjual senilai US$ 179,3 juta atau setara dengan Rp 2,3 triliun.....
             </p>
             <Link href="/detail?slug=les-femmes" className="w-full flex items-center justify-end absolute  bottom-0 right-3 lg:right-10 lg:bottom-10">
               <p className="mr-2 lg:text-20px font-bold text-green-light text-16px">Selengkapnya</p>
@@ -192,13 +192,13 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className='flex flex-col justify-center items-center w-1/12 h-full'>
+            <div className='flex flex-col justify-center items-center w-1/12 lg:pr-0 pr-6 h-full'>
               <div className='w-4 h-4 bg-green-light rounded-full mb-2'></div>
               <div className='w-4 h-4 bg-red-light rounded-full mb-2'></div>
               <div className='w-4 h-4 bg-green-light rounded-full'></div>
             </div>
           </div>
-          <Link href="/recomend" className="w-full flex items-center justify-end absolute lg:bottom-10 lg:top-0 top-10 right-10 cursor-pointer">
+          <Link href="/recomend" className="w-full flex items-center justify-end absolute bottom-10  right-4 cursor-pointer">
             <div className="text-yellow-warm shadow-2xl rounded-full p-2 w-10 h-10 bg-orange-light-DEFAUL flex justify-center items-center">
               <SkipNext />
             </div>

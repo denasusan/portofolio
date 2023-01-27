@@ -39,7 +39,9 @@ export default function CardMuseumWhite() {
         </div>
         <div className="lg:w-1/3 w-full h-full lg:pl-0 px-8 flex flex-col justify-center lg:pr-10 relative lg:pb-0 pb-10">
             <p className="text-green-light text-center font-bold text-24px lg:text-30px">Nu Couché</p>
-            <p className="font-semibold text-10px lg:text-16px">Nu Couché, lukisan terkenal dan merupakan lukisan telanjang di atas kanvas yang diciptakan oleh maestro asal Italia bernama Amedeo Modigliani pada tahun 1917. Lukisan yang berusia lebih dari seratus tahun ini, memiliki sensualitas yang mengejutkan dan menghipnotis penggemar seni ketika pertama kali dipamerkan di Paris. Nu Couché adalah karya seni Ekspresionis yang merupakan lukisan terbesar yang pernah diciptakan Amedeo Modigliani......</p>
+            <p className="font-semibold text-10px lg:text-16px"> Sebuah lukisan telanjang karya seorang pelukis Italia, Modigliani berhasil terjual dengan harga Rp 2,2 triliun (157 juta dolar AS) dalam lelang hari Senin kemarin.
+
+Lukisan berjudul Nu Couche (Sur Le Cote Gauche) menurut balai lelang Sotheby merupakan lukisan terbesar dari pelukis kelahiran Italia ini yang memiliki nama lengkap Amedeo Clemente, yang diselesaikannya tahun 1917.......</p>
             <Link href="/detail?slug=nu-couche"  className="w-full flex items-center justify-end absolute lg:bottom-10 lg:right-10 bottom-0 right-3">
                 <p className="mr-2 lg:text-20px text-16px font-bold text-green-light">Selengkapnya</p>
                 <div className="bg-yellow-warm shadow-2xl rounded-full p-2 w-10 h-10 text-orange-light-DEFAUL flex justify-center items-center">
