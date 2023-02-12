@@ -14,10 +14,10 @@ import Head from 'next/head';
 export default function App({ Component, pageProps, router }) {
   return <AnimatePresence mode="wait" initial={false}>
     <Head>
-      <title>Jelajah Museum</title>
-      <meta name="description" content="Website Jelajah Museum" />
+      <title>Gaya Properti</title>
+      <meta name="description" content="Website Gaya Properti" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link rel="icon" href="/favicon.png" />
+      <link rel="icon" href="/images/logo.png" />
     </Head>
     <Component {...pageProps} key={router.asPath} />
   </AnimatePresence>

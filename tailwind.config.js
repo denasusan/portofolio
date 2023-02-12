@@ -105,9 +105,9 @@ module.exports = {
         DEFAULT: '#F7F8FA'
       },
       'blue-primary': {
-        light: '#EBF1FA',
-        DEFAULT: '#2E68B2',
-        dark: '#0D477A',
+        light: '#5F9DF7',
+        DEFAULT: '#001E7F',
+        dark: '#001E7F',
       },
       'yellow-warm': {
         DEFAULT: '#FBF3E1'
