@@ -9,8 +9,9 @@ import Footer from '@/components/footer'
 import Header from '@/components/header'
 import Layout from '@/components/layout'
 import { NavigateNext, Redo } from '@material-ui/icons'
-import { Autoplay, Navigation } from 'swiper'
+import SwiperCore, { Autoplay, Navigation } from 'swiper'
 // import "swiper/css";
+SwiperCore.use([Autoplay]);
 
 
 const SliderComponent = () => {
@@ -69,8 +70,8 @@ export default function Home() {
                   breakpoints={SliderComponent}
                   // pagination={true}
                   modules={[Autoplay, Pagination]}
-                  autoplay={{ delay: 10 }}
-                  speed={1300}
+                  autoplay={{ delay: 3000 }}
+                  speed={1000}
                   onBeforeInit={(swiper) => {
                     swiperRef.current = swiper;
                   }}
@@ -126,7 +127,7 @@ export default function Home() {
                     // breakpoints={SliderComponent}
                     // pagination={true}
                     modules={[Autoplay]}
-                    autoplay={{ delay: 1000, disableOnInteraction: false }}
+                    autoplay={{ delay: 3000, disableOnInteraction: false }}
                     speed={1000}
                     onBeforeInit={(swiper) => {
                       swiperRefOurCulture.current = swiper;

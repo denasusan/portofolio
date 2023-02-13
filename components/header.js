@@ -13,7 +13,7 @@ export default function Header({ tabActive, isPageSearch }) {
                 <div className='w-full flex justify-between'>
                     <div className='flex flex-col lg:flex-row  justify-around lg:w-1/3 w-full lg:pt-6 pt-4 lg:pl-10 pl-4 pr-4'>
                         <div className='lg:mb-0 mb-4'>
-                            <img src="/images/logo.png" className='lg:w-36 w-44  h-auto mr-2' />
+                            <img src="/images/logo.png" className='lg:w-36 w-36  h-auto mr-2' />
                         </div>
                         <div>
                             <p onClick={() => { }} className='text-black cursor-pointer w-28 text-12px font-medium border-b border-blue-primary-light'>
