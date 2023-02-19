@@ -63,7 +63,7 @@ export default function Home() {
                       return (
                         <SwiperSlide key={index}>
                           {
-                            <div className={`pb-10 w-full`}>
+                            <div className={`w-full`}>
                               <div className={`relative w-full`}>
 
                                 <div className='' style={{ width: '100%', height: '100%', position: 'relative', paddingBottom: "51%" }}>
@@ -88,7 +88,7 @@ export default function Home() {
                   }
                 </Swiper>
 
-                <div className='w-9/12 mx-auto lg:py-10 md:pt-10 pt-0 pb-0' ref={aboutUsRef} id="tentang-kami">
+                <div className='w-9/12 mx-auto lg:py-10 md:pt-10 pt-4 pb-0' ref={aboutUsRef} id="tentang-kami">
                   <p className='lg:text-24px text-20px font-bold py-2 text-blue-primary '>About Us</p>
                   <p className='bg-blue-light rounded-xl p-4 text-14px lg:text-16px font-medium'><strong>Gaya Properti</strong> didirikan pada tahun 2013 yang bermula sebagai pengembang perumahan khususnya di wilayah Kota Bandung, Jawa Barat. Seiring berkembangnya waktu, Gaya Properti bertransformasi menjadi perusahaan yang bergerak di bidang Kontraktor, Arsitektur, Desain Interior dan Custom Furniture.
                     <br /> <br />
