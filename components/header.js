@@ -38,7 +38,7 @@ export default function Header({ tabActive, isPageSearch, refSection }) {
                         </div>
                         {
 
-                            <div className={`${isMenuOpened == false ? "scale-0" : "scale-100"} transition-all z-20 right-2 lg:right-32 sm:right-8 top-4 duration-200 absolute bg-white rounded-xl p-2 border shadow-xl border-blue-primary-light`}>
+                            <div className={`${isMenuOpened == false ? "scale-0" : "scale-100"} transition-all z-20 right-2 lg:right-32 sm:right-8 top-4 duration-200 absolute bg-white rounded-xl p-2 border shadow-xl border-blue-primary`}>
                                 <div className='flex justify-end text-blue-primary' ><Close className=' cursor-pointer' fontSize='small' onClick={() => setIsMenuOpened(!isMenuOpened)} /></div>
                                 <Link href={"/"} className={`${tabActive == "home" ? "text-blue-primary-light" : "text-black"} mb-2 hover:text-blue-primary-light cursor-pointer flex text-12px font-medium border-b border-blue-primary-light`}>
                                     Home
