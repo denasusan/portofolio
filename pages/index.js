@@ -8,43 +8,20 @@ import { useEffect, useRef, useState } from 'react';
 import Footer from '@/components/footer'
 import Header from '@/components/header'
 import Layout from '@/components/layout'
-import { NavigateNext, Redo } from '@material-ui/icons'
+import { NavigateNext, Redo, WhatsApp } from '@material-ui/icons'
 import SwiperCore, { Autoplay, Navigation } from 'swiper'
-// import "swiper/css";
 SwiperCore.use([Autoplay]);
-
-
-const SliderComponent = () => {
-
-  // For Typescript!
-  // const swiperRef = useRef<SwiperCore>();  
-
-
-  const sliderSettings = {
-    440: {
-      slidesPerView: 1,
-      spaceBetween: 30,
-    },
-    680: {
-      slidesPerView: 2,
-      spaceBetween: 30,
-    },
-    1024: {
-      slidesPerView: 3,
-      spaceBetween: 30,
-    },
-  };
-}
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  const aboutUsRef = useRef();
   const swiperRef = useRef();
   const swiperRefOurCulture = useRef();
   const [loading, setLoading] = useState(true);
   const [images, setImages] = useState([
-    "/images/2.png",
-    "/images/1.png"
+    "/images/1.png",
+    "/images/2.png"
   ]);
 
   useEffect(() => {
@@ -61,23 +38,23 @@ export default function Home() {
             <p>Loading...</p>
           </div> :
           <div>
-            <Header tabActive={1} />
+            <Header tabActive={"home"} refSection={aboutUsRef} />
             <main>
               <div>
                 <Swiper
                   slidesPerView={1}
                   ref={swiperRef}
-                  breakpoints={SliderComponent}
+                  // breakpoints={SliderComponent}
                   // pagination={true}
                   modules={[Autoplay, Pagination]}
-                  autoplay={{ delay: 3000 }}
-                  speed={1000}
+                  autoplay={{ delay: 3500 }}
+                  speed={2000}
                   onBeforeInit={(swiper) => {
                     swiperRef.current = swiper;
                   }}
                   loop={true}>
-                  <div className='w-full text-blue-primary-light flex absolute z-10 lg:bottom-16 bottom-10 justify-between lg:px-12 opacity-50 px-2'>
-                    <button className='transform rotate-180 text-blue-primary' onClick={() => swiperRef.current?.slidePrev()}><Redo fontSize='' /></button>
+                  <div className='w-full text-white flex absolute z-10 lg:bottom-16 bottom-10 justify-between lg:px-12 px-2'>
+                    <button className='transform rotate-180' onClick={() => swiperRef.current?.slidePrev()}><Redo fontSize='' /></button>
                     <button className='' onClick={() => swiperRef.current?.slideNext()}><Redo fontSize='' /></button>
                   </div>
                   {
@@ -111,7 +88,7 @@ export default function Home() {
                   }
                 </Swiper>
 
-                <div className='w-9/12 mx-auto lg:my-10 my-0'>
+                <div className='w-9/12 mx-auto lg:py-10 pt-10 pb-0' ref={aboutUsRef} id="tentang-kamißßß">
                   <p className='lg:text-24px text-20px font-bold py-2 text-blue-primary '>About Us</p>
                   <p className='bg-blue-light rounded-xl p-4 text-14px lg:text-16px font-medium'>Gaya Properti didirikan pada tahun 2013 yang bermula sebagai pengembang perumahan khususnya di wilayah Kota Bandung, Jawa Barat. Seiring berkembangnya waktu, Gaya Properti bertransformasi menjadi perusahaan yang bergerak di bidang Kontraktor, Arsitektur, Desain Interior dan Custom Furniture.
                     <br /> <br />
@@ -127,14 +104,14 @@ export default function Home() {
                     // breakpoints={SliderComponent}
                     // pagination={true}
                     modules={[Autoplay]}
-                    autoplay={{ delay: 3000, disableOnInteraction: false }}
-                    speed={1000}
+                    autoplay={{ delay: 3500 }}
+                    speed={2000}
                     onBeforeInit={(swiper) => {
                       swiperRefOurCulture.current = swiper;
                     }}
                     loop={true}>
-                    <div className='w-full text-blue-primary-light flex absolute z-10 lg:bottom-16 bottom-10 justify-between lg:px-12 opacity-50 px-2'>
-                      <button className='transform rotate-180 text-blue-primary' onClick={() => swiperRefOurCulture.current?.slidePrev()}><Redo fontSize='' /></button>
+                    <div className='w-full text-white flex absolute z-10 lg:bottom-16 bottom-10 justify-between lg:px-12 px-2'>
+                      <button className='transform rotate-180 ' onClick={() => swiperRefOurCulture.current?.slidePrev()}><Redo fontSize='' /></button>
                       <button className='' onClick={() => swiperRefOurCulture.current?.slideNext()}><Redo fontSize='' /></button>
                     </div>
                     {
