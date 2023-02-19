@@ -96,7 +96,7 @@ export default function Home() {
                   </p>
                 </div>
 
-                <div className='w-9/12 mx-auto mt-10'>
+                <div className='w-10/12 mx-auto mt-10'>
                   <p className='lg:text-24px text-20px font-bold py-2 text-blue-primary'>Our Culture</p>
                   <Swiper
                     slidesPerView={1}
