@@ -24,6 +24,16 @@ export default function Home() {
     "/images/2.png"
   ]);
 
+  const [imageCulture, setImageCulture] = [
+    "/images/1--culture.png",
+    "/images/2--culture.png",
+    "/images/3--culture.png",
+    "/images/4--culture.png",
+    "/images/5--culture.png",
+    "/images/6--culture.png",
+
+  ]
+
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
@@ -115,7 +125,7 @@ export default function Home() {
                       <button className='' onClick={() => swiperRefOurCulture.current?.slideNext()}><Redo fontSize='' /></button>
                     </div>
                     {
-                      images.map((item, index) => {
+                      imageCulture.map((item, index) => {
                         const image = item
                         return (
                           <SwiperSlide key={index}>
