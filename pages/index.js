@@ -53,8 +53,6 @@ export default function Home() {
                 <Swiper
                   slidesPerView={1}
                   ref={swiperRef}
-                  // breakpoints={SliderComponent}
-                  // pagination={true}
                   modules={[Autoplay, Pagination]}
                   autoplay={{ delay: 3500 }}
                   speed={2000}
@@ -99,9 +97,9 @@ export default function Home() {
 
                 <div className='w-9/12 mx-auto lg:py-10 md:pt-10 pt-0 pb-0' ref={aboutUsRef} id="tentang-kami">
                   <p className='lg:text-24px text-20px font-bold py-2 text-blue-primary '>About Us</p>
-                  <p className='bg-blue-light rounded-xl p-4 text-14px lg:text-16px font-medium'><strong>Gaya Properti</strong> didirikan pada tahun 2013 yang bermula sebagai pengembang perumahan khususnya di wilayah Kota Bandung, Jawa Barat. Seiring berkembangnya waktu, Gaya Properti bertransformasi menjadi perusahaan yang bergerak di bidang Kontraktor, Arsitektur, Desain Interior dan Custom Furniture.
+                  <p className='bg-blue-light rounded-xl p-4 text-14px lg:text-16px font-medium'><strong className='text-blue-primary'>Gaya Properti</strong> didirikan pada tahun 2013 yang bermula sebagai pengembang perumahan khususnya di wilayah Kota Bandung, Jawa Barat. Seiring berkembangnya waktu, Gaya Properti bertransformasi menjadi perusahaan yang bergerak di bidang Kontraktor, Arsitektur, Desain Interior dan Custom Furniture.
                     <br /> <br />
-                    <strong>Gaya Properti</strong> bertujuan menjadi perusahaan konglomerasi properti yang dapat besaing di kancah Nasional Maupun Internasional dengan memberikan pelayanan yang terbaik untuk mitra dan klien, membangun sumber daya manusia yang berintegritas dan berkompetensi internasional serta membangun manajemen yang transparan dan profesional.
+                    <strong className='text-blue-primary'>Gaya Properti</strong> bertujuan menjadi perusahaan konglomerasi properti yang dapat besaing di kancah Nasional Maupun Internasional dengan memberikan pelayanan yang terbaik untuk mitra dan klien, membangun sumber daya manusia yang berintegritas dan berkompetensi internasional serta membangun manajemen yang transparan dan profesional.
                   </p>
                 </div>
 
@@ -110,9 +108,7 @@ export default function Home() {
                   <Swiper
                     slidesPerView={1}
                     ref={swiperRefOurCulture}
-                    // breakpoints={SliderComponent}
-                    // pagination={true}
-                    modules={[Autoplay]}
+                    modules={[Autoplay, Pagination]}
                     autoplay={{ delay: 3500 }}
                     speed={2000}
                     onBeforeInit={(swiper) => {
