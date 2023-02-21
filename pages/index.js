@@ -24,15 +24,14 @@ export default function Home() {
     "/images/2.png"
   ]);
 
-  const [imageCulture, setImageCulture] = [
+  const imageCulture = [
     "/images/1-culture.jpg",
     "/images/2-culture.jpg",
     "/images/3-culture.jpg",
     "/images/4-culture.jpg",
     "/images/5-culture.jpg",
     "/images/6-culture.jpg",
-
-  ]
+  ];
 
   useEffect(() => {
     setTimeout(() => {
@@ -106,7 +105,7 @@ export default function Home() {
                   </p>
                 </div>
 
-                <div className='w-9/12 mx-auto mt-10'>
+                <div className='w-9/12 mx-auto mt-10 rounded-xl'>
                   <p className='lg:text-24px text-20px font-bold py-2 text-blue-primary'>Our Culture</p>
                   <Swiper
                     slidesPerView={1}
