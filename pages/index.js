@@ -25,12 +25,12 @@ export default function Home() {
   ]);
 
   const [imageCulture, setImageCulture] = [
-    "/images/1-culture.png",
-    "/images/2-culture.png",
-    "/images/3-culture.png",
-    "/images/4-culture.png",
-    "/images/5-culture.png",
-    "/images/6-culture.png",
+    "/images/1-culture.jpg",
+    "/images/2-culture.jpg",
+    "/images/3-culture.jpg",
+    "/images/4-culture.jpg",
+    "/images/5-culture.jpg",
+    "/images/6-culture.jpg",
 
   ]
 
