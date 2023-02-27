@@ -1,11 +1,11 @@
 {
-  "name": "jelajah-museum",
-  "version": "0.1.0",
+  "name": "gayaproperti",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "NODE_ENV=production node server.js",
     "lint": "next lint"
   },
   "dependencies": {

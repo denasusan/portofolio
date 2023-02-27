@@ -1,15 +1,14 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Inter, Poppins } from '@next/font/google'
-import styles from '@/styles/Home.module.css'
-import Link from 'next/link'
+import { Inter } from '@next/font/google'
 import { Swiper, SwiperSlide, Pagination } from 'swiper/react';
 import { useEffect, useRef, useState } from 'react';
 import Footer from '@/components/footer'
 import Header from '@/components/header'
 import Layout from '@/components/layout'
-import { NavigateNext, Redo, WhatsApp } from '@material-ui/icons'
-import SwiperCore, { Autoplay, Navigation } from 'swiper'
+import { Redo } from '@material-ui/icons'
+import SwiperCore, { Autoplay } from 'swiper'
+import WhatsAppIcon from '@/public/svg/whatsapp_icon'
 SwiperCore.use([Autoplay]);
 
 const inter = Inter({ subsets: ['latin'] })
@@ -20,31 +19,31 @@ export default function Home() {
   const swiperRefOurCulture = useRef();
   const [loading, setLoading] = useState(true);
   const [images, setImages] = useState([
-    "/images/1.png",
-    "/images/2.png"
+    "/images/1.webp",
+    "/images/2.webp"
   ]);
 
   const imageCulture = [
-    "/images/1-culture.jpg",
-    "/images/2-culture.jpg",
-    "/images/3-culture.jpg",
-    "/images/4-culture.jpg",
-    "/images/5-culture.jpg",
-    "/images/6-culture.jpg",
+    "/images/1-culture.webp",
+    "/images/2-culture.webp",
+    "/images/3-culture.webp",
+    "/images/4-culture.webp",
+    "/images/5-culture.webp",
+    "/images/6-culture.webp",
   ];
 
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 200)
+    }, 500)
   }, [])
 
   return (
     <Layout>
       {
         loading == true ?
-          <div className='w-full min-h-screen flex justify-center items-center'>
-            <p>Loading...</p>
+          <div className='w-full min-h-screen flex justify-center items-center animate-bounce'>
+            <img src="/images/logo-small.png" />
           </div> :
           <div>
             <Header tabActive={"home"} refSection={aboutUsRef} />
@@ -151,7 +150,15 @@ export default function Home() {
                     }
                   </Swiper>
                 </div>
+                <div className='fixed cursor-pointer lg:bottom-8 bottom-4 lg:right-8 right-5 z-30 rounded-full' onClick={() =>
+                    window.open(
+                      `http://wa.me/628112347615?text=Hai Admin Gaya Properti, saya ingin bertanya...`
+                    )
+                  }>
+                  <WhatsAppIcon />
+                </div>
               </div>
+
             </main>
             <Footer />
           </div>

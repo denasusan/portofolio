@@ -23,15 +23,15 @@ export default function Portofolio() {
     useEffect(() => {
         setTimeout(() => {
             setLoading(false);
-        }, 200)
+        }, 500)
     }, [])
 
     return (
         <Layout>
             {
                 loading == true ?
-                    <div className='w-full min-h-screen flex justify-center items-center'>
-                        <p>Loading...</p>
+                    <div className='w-full min-h-screen flex justify-center items-center animate-bounce'>
+                        <img src="/images/logo-small.png" />
                     </div> :
                     <div>
                         <Header tabActive={"portofolio"} />
