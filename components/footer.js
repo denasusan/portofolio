@@ -5,8 +5,8 @@ import Link from 'next/link'
 
 export default function Footer() {
     return (
-        <footer className='footer'>
-            <div className="section-1 w-full mb-8">
+        <footer className='footer border-t border-blue-primary'>
+            <div className="section-1 w-full pb-8">
                 <div className='w-full flex justify-between  text-gray-600 text-12px font-medium'>
                     <div className='flex lg:ml-0 ml-2 lg:flex-row flex-col justify-evenly w-2/4 pt-6 pr-4  '>
                         <div>
