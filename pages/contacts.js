@@ -10,37 +10,37 @@ export default function Contacts() {
     const [contacts, setContacts] = useState([
         {
             "name": "Muhammad Dzikri Imanullah",
-            "image": "/images/person-1.png",
+            "image": "images/person-1.png",
             "no": "628112347615"
         },
         {
             "name": "Muhammad Dzikri Imanullah",
-            "image": "/images/person-1.png",
+            "image": "images/person-1.png",
             "no": "628112347615"
         },
         {
             "name": "Muhammad Dzikri Imanullah",
-            "image": "/images/person-1.png",
+            "image": "images/person-1.png",
             "no": "628112347615"
         },
         {
             "name": "Muhammad Dzikri Imanullah",
-            "image": "/images/person-1.png",
+            "image": "images/person-1.png",
             "no": "628112347615"
         },
         {
             "name": "Muhammad Dzikri Imanullah",
-            "image": "/images/person-1.png",
+            "image": "images/person-1.png",
             "no": "628112347615"
         },
         {
             "name": "Muhammad Dzikri Imanullah",
-            "image": "/images/person-1.png",
+            "image": "images/person-1.png",
             "no": "628112347615"
         },
         {
             "name": "Muhammad Dzikri Imanullah",
-            "image": "/images/person-1.png",
+            "image": "images/person-1.png",
             "no": "628112347615"
         }
     ]);
@@ -56,7 +56,7 @@ export default function Contacts() {
             {
                 loading == true ?
                     <div className='w-full min-h-screen flex justify-center items-center animate-bounce'>
-                        <img src="/images/person-1.png" />
+                        <img src="images/logo-small.png" />
                     </div> :
                     <div>
                         <Header tabActive={"contacts"} />

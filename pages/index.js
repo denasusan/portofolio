@@ -19,17 +19,17 @@ export default function Home() {
   const swiperRefOurCulture = useRef();
   const [loading, setLoading] = useState(true);
   const [images, setImages] = useState([
-    "/images/1.webp",
-    "/images/2.webp"
+    "images/1.webp",
+    "images/2.webp"
   ]);
 
   const imageCulture = [
-    "/images/1-culture.webp",
-    "/images/2-culture.webp",
-    "/images/3-culture.webp",
-    "/images/4-culture.webp",
-    "/images/5-culture.webp",
-    "/images/6-culture.webp",
+    "images/1-culture.webp",
+    "images/2-culture.webp",
+    "images/3-culture.webp",
+    "images/4-culture.webp",
+    "images/5-culture.webp",
+    "images/6-culture.webp",
   ];
 
   useEffect(() => {
@@ -43,7 +43,7 @@ export default function Home() {
       {
         loading == true ?
           <div className='w-full min-h-screen flex justify-center items-center animate-bounce'>
-            <img src="/images/logo-small.png" />
+            <img src="images/logo-small.png" />
           </div> :
           <div>
             <Header tabActive={"home"} refSection={aboutUsRef} />
