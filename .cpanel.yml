@@ -2,5 +2,3 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/n1571711/public_html/gayaproperti/
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
