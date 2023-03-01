@@ -22,7 +22,7 @@ export default function Header({ tabActive, isPageSearch, refSection }) {
                 <div className='w-full flex justify-between'>
                     <div className='flex flex-col lg:flex-row  justify-around lg:w-1/3 w-full lg:pt-4 pt-4 lg:pl-10 pl-4 pr-4'>
                         <div className='lg:mb-0 mb-4'>
-                            <img src="images/logo.png" onClick={() => Router.push("/")} className='lg:w-36 w-28  h-auto mr-2 cursor-pointer' />
+                            <img src="/images/logo.png" onClick={() => Router.push("/")} className='lg:w-36 w-28  h-auto mr-2 cursor-pointer' />
                         </div>
                     </div>
                     <div className='w-1/3 pt-4 flex justify-center '>

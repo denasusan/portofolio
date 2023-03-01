@@ -5,9 +5,9 @@ import Link from 'next/link'
 
 export default function Footer() {
     return (
-        <footer className='footer border-t border-blue-primary'>
+        <footer className='footer bg-opacity-10' style={{backgroundColor: '#283b77'}}>
             <div className="section-1 w-full pb-8">
-                <div className='w-full flex justify-between  text-gray-600 text-12px font-medium'>
+                <div className='w-full flex justify-between  text-white text-12px font-medium'>
                     <div className='flex lg:ml-0 ml-2 lg:flex-row flex-col justify-evenly w-2/4 pt-6 pr-4  '>
                         <div>
                             <div className='flex items-start cursor-pointer' onClick={() => {

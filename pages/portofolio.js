@@ -6,18 +6,18 @@ import { useEffect, useState } from "react";
 export default function Portofolio() {
     const [loading, setLoading] = useState(true);
     const [images, setImages] = useState([
-        "images/pt-1.png",
-        "images/pt-2.png",
-        "images/pt-3.png",
-        "images/pt-4.png",
-        "images/pt-5.png",
-        "images/pt-6.png",
-        "images/pt-7.png",
-        "images/pt-8.png",
-        "images/pt-9.png",
-        "images/pt-10.png",
-        "images/pt-11.png",
-        "images/pt-12.png",
+        "/images/pt-1.png",
+        "/images/pt-2.png",
+        "/images/pt-3.png",
+        "/images/pt-4.png",
+        "/images/pt-5.png",
+        "/images/pt-6.png",
+        "/images/pt-7.png",
+        "/images/pt-8.png",
+        "/images/pt-9.png",
+        "/images/pt-10.png",
+        "/images/pt-11.png",
+        "/images/pt-12.png",
     ]);
 
     useEffect(() => {
