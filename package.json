@@ -1,11 +1,11 @@
 {
-  "name": "gayaproperti",
-  "version": "0.1.1",
+  "name": "portofolio-dena-susanti",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js",
+    "start": "next start",
     "lint": "next lint",
     "export": "next export"
   },
