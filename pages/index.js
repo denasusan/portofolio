@@ -29,13 +29,13 @@ export default function Home() {
               <div className={` min-h-screen overflow-y-auto overflow-x-hidden w-full flex flex-col ${chooseTab == -1 ? "justify-center" : "justify-start"} items-center  bg-black`}>
                 <div className={` ${openProfile == true && chooseTab  >= 0 ? " opacity-100 z-20 -translate-y-10 pt-20 visible relative" : "translate-y-0 opacity-0 invisible absolute"} duration-500  transition-all `}>
                   <div className='w-full flex justify-center gap-2 px-4'>
-                    <button onClick={() => setChooseTab(0)} className={`${chooseTab == 0 ? "bg-gray-400 scale-125 mx-5" : "mx-0 scale-100 bg-pink-500"} transition-all duration-500 text-black mx-auto font-bold rounded-full px-4 py-2`}>Biodata</button>
-                    <button onClick={() => setChooseTab(1)} className={`${chooseTab == 1 ? "bg-gray-400 scale-125 mx-5" : "mx-0 scale-100 bg-blue-400"} transition-all duration-500 text-black mx-auto font-bold rounded-full px-4 py-2`}>Education</button>
-                    <button onClick={() => setChooseTab(2)} className={`${chooseTab == 2 ? "bg-gray-400 scale-125 mx-5" : "mx-0 scale-100 bg-red-500"} transition-all duration-500 text-black mx-auto font-bold rounded-full px-4 py-2 `}>Contact</button>
+                    <button onClick={() => setChooseTab(0)} className={`${chooseTab == 0 ? "bg-gray-400 scale-105 mx-5" : "mx-0 scale-100 bg-pink-500"} transition-all duration-500 text-black mx-auto font-bold rounded-full px-4 py-2`}>Biodata</button>
+                    <button onClick={() => setChooseTab(1)} className={`${chooseTab == 1 ? "bg-gray-400 scale-105 mx-5" : "mx-0 scale-100 bg-blue-400"} transition-all duration-500 text-black mx-auto font-bold rounded-full px-4 py-2`}>Education</button>
+                    <button onClick={() => setChooseTab(2)} className={`${chooseTab == 2 ? "bg-gray-400 scale-105 mx-5" : "mx-0 scale-100 bg-red-500"} transition-all duration-500 text-black mx-auto font-bold rounded-full px-4 py-2 `}>Contact</button>
                   </div>
                   <div className='flex justify-center gap-2 p-4'>
-                    <button onClick={() => setChooseTab(3)} className={`${chooseTab == 3 ? "bg-gray-400 scale-125 mx-2" : "mx-0 scale-100 bg-purple-400"} transition-all duration-500 text-black mx-auto font-bold rounded-full px-4 py-2 `}>Skill</button>
-                    <button onClick={() => setChooseTab(4)} className={`${chooseTab == 4 ? "bg-gray-400 scale-125 mx-2" : "mx-0 scale-100 bg-yellow-300"} transition-all duration-500 text-black mx-auto font-bold rounded-full px-4 py-2 `}>Work Experience</button>
+                    <button onClick={() => setChooseTab(3)} className={`${chooseTab == 3 ? "bg-gray-400 scale-105 mx-2" : "mx-0 scale-100 bg-purple-400"} transition-all duration-500 text-black mx-auto font-bold rounded-full px-4 py-2 `}>Skill</button>
+                    <button onClick={() => setChooseTab(4)} className={`${chooseTab == 4 ? "bg-gray-400 scale-105 mx-2" : "mx-0 scale-100 bg-yellow-300"} transition-all duration-500 text-black mx-auto font-bold rounded-full px-4 py-2 `}>Work Experience</button>
                   </div>
                 </div>
                 <div className='w-full max-w-lg relative bg-opacity-80 filter blur-0'>
@@ -198,7 +198,7 @@ export default function Home() {
                 </div>
                 {
                   chooseTab >= 0 ?
-                    <button onClick={() => setChooseTab(-1)} className={`bg-red-300 relative transition-all duration-500 text-black mx-auto font-bold rounded-full px-2 py-2 mt-10`}>
+                    <button onClick={() => setChooseTab(-1)} className={`bg-red-300 mb-10 relative transition-all duration-500 text-black mx-auto font-bold rounded-full px-2 py-2 mt-10`}>
                       <Close />
                     </button> : ""
                 }
