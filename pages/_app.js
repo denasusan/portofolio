@@ -15,9 +15,9 @@ export default function App({ Component, pageProps, router }) {
   return <AnimatePresence mode="wait" initial={false}>
     <Head>
       <title>Gaya Properti</title>
-      <meta name="description" content="Gaya Properti didirikan pada tahun 2013 yang bermula sebagai pengembang perumahan khususnya di wilayah Kota Bandung, Jawa Barat. Seiring berkembangnya waktu, Gaya Properti bertransformasi menjadi perusahaan yang bergerak di bidang Kontraktor, Arsitektur, Desain Interior dan Custom Furniture.Gaya Properti bertujuan menjadi perusahaan konglomerasi properti yang dapat besaing di kancah Nasional Maupun Internasional dengan memberikan pelayanan yang terbaik untuk mitra dan klien, membangun sumber daya manusia yang berintegritas dan berkompetensi internasional serta membangun manajemen yang transparan dan profesional." />
+      <meta name="description" content="Portofolio Dena Susanti" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link rel="icon" href="/images/logo-small.png" />
+      <link rel="icon" href="https://media.licdn.com/dms/image/D5603AQGJkXGib29kUA/profile-displayphoto-shrink_800_800/0/1665710148806?e=1685577600&v=beta&t=bOM1E-LvIaDu57mKTalsuzYJ4Zh1ElxmG5YvFbUMBZc" />
     </Head>
     <Component {...pageProps} key={router.asPath} />
   </AnimatePresence>

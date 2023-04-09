@@ -1,4 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/n1571711/public_html/gayaproperti/

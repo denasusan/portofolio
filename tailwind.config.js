@@ -10,27 +10,24 @@ module.exports = {
   ],
   theme: {
     extend: {
-      transitionProperty: {
-        'height': 'height'
+      animation: {
+        blob: "blob 7s infinite",
       },
       keyframes: {
-        'fade-in-down': {
-          '0%': {
-            opacity: '0',
-            transform: 'translateY(100px)',
+        blob: {
+          "0%": {
+            transform: "translate(0px, 0px) scale(1)",
           },
-          '50%': {
-            opacity: '0.5',
-            transform: 'translateY(100px)',
+          "33%": {
+            transform: "translate(30px, -50px) scale(1.1)",
           },
-          '100%': {
-            opacity: '1',
-            transform: 'translateY(-100px)'
+          "66%": {
+            transform: "translate(-20px, 20px) scale(0.9)",
           },
-        }
-      },
-      animation: {
-        'fade-in-down': 'fade-in-down 0.5s ease-out'
+          "100%": {
+            transform: "tranlate(0px, 0px) scale(1)",
+          },
+        },
       },
       backgroundImage: (theme) => ({
         // 'hero-sm': "url('https://ey4pc.com/wp-content/uploads/2020/06/family-gathering-for-a-group-hug-400x284.jpg')",
@@ -62,13 +59,13 @@ module.exports = {
       'orange-light': {
         DEFAUL: '#F24E1E'
       },
-      'gray-custom' : {
+      'gray-custom': {
         DEFAULT: "#AEAEAE"
       },
-      'yellow-E9AC0C' : {
+      'yellow-E9AC0C': {
         DEFAULT: "#E9AC0C"
       },
-      '616161' : {
+      '616161': {
         DEFAULT: '#616161'
       },
       'green-donate': {
@@ -86,22 +83,22 @@ module.exports = {
         DEFAULT: '#FCC047',
         dark: '#FCC047',
       },
-      'blue-secondary' : {
+      'blue-secondary': {
         light: '#EEF4FA',
-        DEFAULT:'#EEF4FA',
+        DEFAULT: '#EEF4FA',
         dark: '#EEF4FA'
       },
-      'gray-event' : {
+      'gray-event': {
         light: '#F9F9F9',
-        DEFAULT:'#F9F9F9',
+        DEFAULT: '#F9F9F9',
         dark: '#F9F9F9'
       },
-      'soft-blue' : {
+      'soft-blue': {
         light: '#F3F9FE',
-        DEFAULT:'#F3F9FE',
+        DEFAULT: '#F3F9FE',
         dark: '#F3F9FE'
       },
-      'blue-F7F8FA' :{
+      'blue-F7F8FA': {
         DEFAULT: '#F7F8FA'
       },
       'blue-primary': {
@@ -112,16 +109,16 @@ module.exports = {
       'yellow-warm': {
         DEFAULT: '#FBF3E1'
       },
-      'red-light':{
+      'red-light': {
         DEFAULT: '#F33009'
       },
-      'green-light':{
+      'green-light': {
         DEFAULT: '#125446'
       },
-      'blue-light':{
+      'blue-light': {
         DEFAULT: '#F3F8FF'
       },
-      'broken-white':{
+      'broken-white': {
         DEFAULT: '#F8F8F8'
       },
       'default-text-field': {
@@ -295,7 +292,7 @@ module.exports = {
       'button-green': '0 10px 10px 10px rgba(236, 255, 230, 1), 0 10px 10px 10px rgba( 0,0,0,0) ',
       'button-gray': '0px 4px 4px rgba(0, 0, 0, 0.15)',
       'button-gray-thin': '0px 4px 4px 0px rgba(0, 0, 0, 0.1)'
-    }, 
+    },
     container: {},
     cursor: {
       'auto': 'auto',
@@ -931,7 +928,7 @@ module.exports = {
     }),
     zIndex: {
       auto: 'auto',
-      '-10':'-10',
+      '-10': '-10',
       0: '0',
       10: '10',
       20: '20',
