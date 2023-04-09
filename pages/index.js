@@ -42,7 +42,7 @@ export default function Home() {
                   {
                     chooseTab == 0 ?
                       <div className='flex relative transition-all duration-500 border-x-4 border-pink-300 mx-3 justify-center items-center z-20 gap-10 lg:flex-row flex-col bg-white rounded-xl p-4'>
-                        <div className='p-1 rounded-full bg-pink-300 w-1/3 transition-all duration-500'>
+                        <div className='p-1 rounded-full bg-pink-300 w-full lg:w-1/3 transition-all duration-500'>
                           <img className='w-full h-auto rounded-full' src="https://media.licdn.com/dms/image/D5603AQGJkXGib29kUA/profile-displayphoto-shrink_800_800/0/1665710148806?e=1685577600&v=beta&t=bOM1E-LvIaDu57mKTalsuzYJ4Zh1ElxmG5YvFbUMBZc" />
                         </div>
                         <div className='flex w-full lg:w-2/3 flex-col justify-center items-center transition-all duration-500'>
@@ -65,7 +65,7 @@ export default function Home() {
                       </div> :
                       chooseTab == 1 ?
                         <div className='flex relative transition-all duration-500 border-y-4 border-blue-400 mx-3 justify-center items-center z-20 gap-10 lg:flex-row flex-col bg-white rounded-xl p-4'>
-                          <div className='p-1.5 rounded-full  w-1/3 transition-all duration-500'>
+                          <div className='p-1.5 rounded-full   w-full lg:w-1/3 transition-all duration-500'>
                             <img className='w-full h-auto py-1 rounded-full' src="/images/skill_icon.png" />
                           </div>
                           <div className='flex w-full lg:w-2/3 flex-col justify-center items-center transition-all duration-500'>
@@ -89,7 +89,7 @@ export default function Home() {
                         </div> :
                         chooseTab == 2 ?
                           <div className='flex relative transition-all border-x-4 border-red-500 duration-500 mx-3 justify-center items-center z-20 gap-10 lg:flex-row flex-col bg-white rounded-xl p-4'>
-                            <div className='p-2 rounded-full w-1/3 transition-all duration-500'>
+                            <div className='p-2 rounded-full  w-full lg:w-1/3 transition-all duration-500'>
                               <img className='w-full h-auto rounded-full' src="/images/contact_icon.png" />
                             </div>
                             <div className='flex w-full lg:w-2/3 flex-col justify-center  ml-3 lg:ml-0 items-start transition-all duration-500'>
@@ -161,7 +161,7 @@ export default function Home() {
                             :
                             chooseTab == 4 ?
                               <div className='flex relative transition-all border-x-4 border-yellow-300 mx-3 duration-500 justify-center items-center z-20 gap-5 lg:flex-row flex-col bg-white rounded-xl  p-4'>
-                                <div className='p-1.5 rounded-full w-1/3 transition-all duration-500'>
+                                <div className='p-1.5 rounded-full  w-full lg:w-1/3 transition-all duration-500'>
                                   <img className='w-full h-auto rounded-full' src="/images/work_expereience.png" />
                                 </div>
                                 <div className='flex lg:w-2/3 w-full flex-col justify-center items-start transition-all duration-500'>
