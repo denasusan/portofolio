@@ -43,7 +43,7 @@ export default function Home() {
                     chooseTab == 0 ?
                       <div className='flex relative transition-all duration-500 border-x-4 border-pink-300 mx-3 justify-center items-center z-20 gap-10 lg:flex-row flex-col bg-white rounded-xl p-4'>
                         <div className='p-1 rounded-full bg-pink-300 w-1/3 transition-all duration-500'>
-                          <img className='w-full h-auto rounded-full' src="https://media.licdn.com/dms/image/D5603AQGJkXGib29kUA/profile-displayphoto-shrink_800_800/0/1665710148806?e=1685577600&v=beta&t=bOM1E-LvIaDu57mKTalsuzYJ4Zh1ElxmG5YvFbUMBZc" />
+                          <img className='w-full h-auto rounded-full' src="images/pp.jpeg" />
                         </div>
                         <div className='flex w-full lg:w-2/3 flex-col justify-center items-center transition-all duration-500'>
                           <p className='text-black font-bold'>
@@ -179,7 +179,7 @@ export default function Home() {
                               :
                               <div className='flex relative justify-center items-center z-20 gap-10 lg:flex-row flex-col'>
                                 <div className='p-2 rounded-full bg-white  w-52 transition-all duration-500'>
-                                  <img className='w-full h-auto rounded-full' src="https://media.licdn.com/dms/image/D5603AQGJkXGib29kUA/profile-displayphoto-shrink_800_800/0/1665710148806?e=1685577600&v=beta&t=bOM1E-LvIaDu57mKTalsuzYJ4Zh1ElxmG5YvFbUMBZc" />
+                                  <img className='w-full h-auto rounded-full' src="images/pp.jpeg" />
                                 </div>
                                 <div className='flex flex-col justify-center items-center transition-all duration-500'>
                                   <p><span className='text-white font-bold'> Hai, saya </span> <span className='bg-black text-purple-400 rounded-xl px-2' >Dena Susanti</span></p>
