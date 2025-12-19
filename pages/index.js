@@ -23,7 +23,7 @@ export default function Home() {
           <div className='w-full min-h-screen flex justify-center gap-2 items-center animate-bounce'>
             <div className='h-8 w-8 rounded-full bg-pink-600'></div>
             <div className='h-10 w-10 rounded-full bg-pink-600'></div>
-            <img src="/images/pp-2.jpg" className='w-32 h-auto rounded-full border-pink-600 border-4' />
+            <img src="images/pp-2.jpg" className='w-32 h-auto rounded-full border-pink-600 border-4' />
             <div className='h-10 w-10 rounded-full bg-pink-600'></div>
             <div className='h-8 w-8 rounded-full bg-pink-600'></div>
           </div> :
@@ -48,7 +48,7 @@ export default function Home() {
                         <div className='p-1 rounded-b-full rounded-t-3xl bg-pink-300 w-1/3 transition-all duration-500'>
                           <p className='text-center font-bold'>Biodata</p>
 
-                          <img className='w-full h-auto rounded-full' src="/images/pp-2.jpg" />
+                          <img className='w-full h-auto rounded-full' src="images/pp-2.jpg" />
                         </div>
                         <div className='flex w-full lg:w-2/3 flex-col  transition-all duration-500'>
                           <p className='font-semibold'><Cake className='text-pink-500' /> 17 Juni 2000</p>
@@ -60,7 +60,7 @@ export default function Home() {
                       chooseTab == 1 ?
                         <div className='flex relative transition-all duration-500 border-y-4 border-blue-400 mx-3 justify-center items-center z-20 gap-5 lg:gap-10 lg:flex-row flex-col bg-white rounded-xl p-4'>
                           <div className='p-1.5 rounded-full   flex items-center justify-center flex-col w-full lg:w-1/3 transition-all duration-500'>
-                            {/* <img className='w-full h-auto py-1 rounded-full' src="//images/skill_icon.png" /> */}
+                            {/* <img className='w-full h-auto py-1 rounded-full' src="/images/skill_icon.png" /> */}
                             <p className='text-center font-bold'>Education</p>
                             <CastForEducation style={{ fontSize: "120px" }} className='text-green-700' />
                           </div>
@@ -186,7 +186,7 @@ export default function Home() {
                               :
                               <div className='flex relative justify-center items-center z-20 gap-10 lg:flex-row flex-col'>
                                 <div className='p-1 rounded-full bg-white lg:w-72 w-52 transition-all duration-500'>
-                                  <img className='w-full h-auto rounded-full' src="/images/pp-2.jpg" />
+                                  <img className='w-full h-auto rounded-full' src="images/pp-2.jpg" />
                                 </div>
                                 <div className='flex flex-col transition-all duration-500 mx-4 text-center lg:text-left lg:mt-10 mt-0 justify-center lg:justify-start'>
                                   <p><span className='text-white font-semibold'> Hai, saya </span> <span className='bg-black text-purple-400  px-2' >Dena Susanti</span></p>
