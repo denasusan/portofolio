@@ -9,6 +9,9 @@
     "lint": "next lint",
     "export": "next export"
   },
+  "engines": {
+    "node": "24.x"
+  },
   "dependencies": {
     "@material-ui/core": "^4.12.4",
     "@material-ui/icons": "^4.11.3",
