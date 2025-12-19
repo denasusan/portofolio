@@ -1,7 +1,7 @@
 import { Inter } from '@next/font/google'
 import { useEffect, useRef, useState } from 'react';
 import Layout from '@/components/layout'
-import { ArrowBack, ArrowBackIos, Business, Cake, CastForEducation, Close, House, LinkedIn, Mail, PinDrop, RecentActors, Room } from '@material-ui/icons'
+import { ArrowBack, ArrowBackIos, Business, Cake, CastForEducation, Close, House, LinkedIn, Mail, PinDrop, RecentActors, Room } from '@mui/icons-material'
 import SwiperCore, { Autoplay } from 'swiper'
 import WhatsAppIcon from '@/public/svg/whatsapp_icon'
 SwiperCore.use([Autoplay]);
