@@ -51,9 +51,9 @@ export default function Home() {
                           <img className='w-full h-auto rounded-full' src="images/pp-2.jpg" />
                         </div>
                         <div className='flex w-full lg:w-2/3 flex-col  transition-all duration-500'>
-                          <p className='font-semibold'><Cake className='text-pink-500' /> 17 Juni 2000</p>
-                          <p className='font-semibold'><House className='text-pink-500' />  Islam</p>
-                          <p className='font-semibold'><PinDrop className='text-pink-500' />Jl. Babakan Jati I No.67, Binong, Kec. Batununggal, Kota Bandung, Jawa Barat 40275</p>
+                          <p className='font-semibold mt-1'><Cake className='text-pink-500' /> 17 Juni 2000</p>
+                          <p className='font-semibold mt-1'><House className='text-pink-500' />  Islam</p>
+                          <p className='font-semibold mt-1'><PinDrop className='text-pink-500' />Jl. Babakan Jati I No.67, Binong, Kec. Batununggal, Kota Bandung, Jawa Barat 40275</p>
 
                         </div>
                       </div> :
