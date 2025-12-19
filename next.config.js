@@ -8,7 +8,6 @@ const nextConfig = {
     unoptimized: true,
   },
 
-  // GANTI dengan nama repo kamu
   basePath: process.env.NODE_ENV === 'production' ? '/portofolio' : '',
   assetPrefix: process.env.NODE_ENV === 'production' ? '/portofolio/' : '',
 };
