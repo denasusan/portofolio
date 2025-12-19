@@ -190,8 +190,8 @@ export default function Home() {
                                 </div>
                                 <div className='flex flex-col transition-all duration-500 mx-4 text-center lg:text-left lg:mt-10 mt-0 justify-center lg:justify-start'>
                                   <p><span className='text-white font-semibold'> Hai, saya </span> <span className='bg-black text-purple-400  px-2' >Dena Susanti</span></p>
-                                  <p><span className='text-white font-semibold'> seorang </span> <span className='bg-black  px-2' style={{ color: "#61DAFB" }}>Full stack developer</span></p>
-                                  <p><span className='text-white font-semibold'> dapat mengerjakan </span> <span className='bg-black text-yellow-300 px-2' >Aplikasi berbasis website, mobile android maupun iOS.</span></p>
+                                  <p><span className='text-white font-semibold'> seorang </span> <span className='bg-black  px-2' style={{ color: "#61DAFB" }}>Full stack developer.</span></p>
+                                  <p><span className='text-white font-semibold'> Saya berpengalaman dalam mengerjakan </span> <span className='bg-black text-yellow-300 px-2' >Aplikasi berbasis website, mobile android maupun iOS.</span></p>
                                   <button onClick={() => {
                                     setOpenProfile(true);
                                     setChooseTab(0);
