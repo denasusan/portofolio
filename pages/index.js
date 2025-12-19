@@ -155,32 +155,32 @@ export default function Home() {
                             </div>
                             :
                             chooseTab == 4 ?
-                              <div className='flex relative transition-all border-x-4 border-yellow-300 mx-3 duration-500 justify-center items-start z-20 gap-5 lg:flex-row flex-col bg-white rounded-xl  p-4'>
+                              <div className='flex flex-col relative transition-all border-x-4 border-yellow-300 mx-3 duration-500 justify-center items-center z-20 gap-5  bg-white rounded-xl  p-4'>
                                 <div className='p-1.5 rounded-full  w-full flex  flex-col items-center justify-center lg:w-1/3 transition-all duration-500'>
                                   <p className='text-center font-bold'>Work Experience</p>
                                   <Business style={{ fontSize: "124px" }} className='text-blue-900' />
                                 </div>
-                                <div className='flex lg:w-2/3 w-full flex-col justify-center items-start transition-all duration-500'>
-                                  <div className=' '>
-                                    <p className='font-bold text-blue-primary border-l-2 border-blue-500 pl-4'>2019-2020 (EasySoft Indonesia)</p>
-                                    <span className='text-14px font-semibold'>Sebagai Software Developer menggunakan teknologi Flutter pada bagian Front End (Aplikasi Indonesia Bisa), HTML, CSS, PHP, Javascript dan Java.</span>
+                                <div className='flex text-justify w-full flex-col justify-center items-start transition-all duration-500'>
+                                  <div className='mb-4'>
+                                    <p className='bg-yellow-100 font-bold text-blue-primary border-l-2 border-blue-500 pl-4'>2019-2020 (EasySoft Indonesia)</p>
+                                    <span className='text-14px'>Sebagai Software Developer menggunakan teknologi Flutter pada bagian Front End (Aplikasi Indonesia Bisa), HTML, CSS, PHP, Javascript dan Java.</span>
                                   </div>
-                                  <div className=''>
-                                    <p className='font-bold text-blue-primary mt-4 border-l-2 border-blue-500 pl-4'>2020-Sekarang (Yayasan Berbagi Bahagia)</p>
-                                    <span className='text-14px font-semibold'>Sebagai Front End Developer menggunakan ReactJS dengan framework NextJS dan untuk CSS yang digunakan adalah framework TailwindCSS.
+                                  <div className='mb-4'>
+                                    <p className='bg-yellow-100 font-bold text-blue-primary mt-4 border-l-2 border-blue-500 pl-4'>2020-Sekarang (Yayasan Berbagi Bahagia)</p>
+                                    <span className='text-14px'>Sebagai Front End Developer menggunakan ReactJS dengan framework NextJS dan untuk CSS yang digunakan adalah framework TailwindCSS.
                                       Untuk merasakan  pengalaman langsung saat menggunakannya, dapat mengunjungi <strong className='text-blue-primary cursor-pointer' onClick={() => window.open("https://sharinghappiness.org")}>https://sharinghappiness.org</strong></span>
                                   </div>
-                                  <div className=''>
-                                    <p className='font-bold text-blue-primary mt-4 border-l-2 border-blue-500 pl-4'>2023 (Pembuatan Website GayaProperti)</p>
-                                    <span className='text-14px font-semibold'>Pembuatan website <strong className='text-blue-primary cursor-pointer' onClick={() => window.open("https://gayaproperti.vercel.app")}>GayaProperti</strong></span>
+                                  <div className='mb-4'>
+                                    <p className='bg-yellow-100 font-bold text-blue-primary mt-4 border-l-2 border-blue-500 pl-4'>2023 (Pembuatan Website GayaProperti)</p>
+                                    <span className='text-14px'>Pembuatan website <strong className='text-blue-primary cursor-pointer' onClick={() => window.open("https://gayaproperti.vercel.app")}>GayaProperti</strong></span>
                                   </div>
-                                  <div className=''>
-                                    <p className='font-bold text-blue-primary mt-4 border-l-2 border-blue-500 pl-4'>2024 (Aplikasi Mobile Sharing Happiness)</p>
-                                    <span className='text-14px font-semibold'>Pembuatan aplikasi mobile SharingHappiness berbasis mobile Android menggunakan bahasa Flutter untuk kebutuhan skripsi pribadi.</span>
+                                  <div className='mb-4'>
+                                    <p className='bg-yellow-100 font-bold text-blue-primary mt-4 border-l-2 border-blue-500 pl-4'>2024 (Aplikasi Mobile Sharing Happiness)</p>
+                                    <span className='text-14px'>Pembuatan aplikasi mobile SharingHappiness berbasis mobile Android menggunakan bahasa Flutter untuk kebutuhan skripsi pribadi.</span>
                                   </div>
-                                  <div className=''>
-                                    <p className='font-bold text-blue-primary mt-4 border-l-2 border-blue-500 pl-4'>2025 (Pembuatan Landing Page Guruverse.id)</p>
-                                    <span className='text-14px font-semibold'>Pembuatan landing page website <strong className='text-blue-primary cursor-pointer' onClick={() => window.open("https://guruverse.id")}>guruverse.id</strong></span>
+                                  <div className='mb-4'>
+                                    <p className='bg-yellow-100 font-bold text-blue-primary mt-4 border-l-2 border-blue-500 pl-4'>2025 (Pembuatan Landing Page Guruverse.id)</p>
+                                    <span className='text-14px'>Pembuatan landing page website <strong className='text-blue-primary cursor-pointer' onClick={() => window.open("https://guruverse.id")}>guruverse.id</strong></span>
                                   </div>
                                 </div>
                               </div>
