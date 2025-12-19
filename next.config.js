@@ -9,8 +9,8 @@ const nextConfig = {
   },
 
   // GANTI dengan nama repo kamu
-  basePath: process.env.NODE_ENV === 'production' ? '/NAMA_REPO' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/NAMA_REPO/' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/portofolio' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/portofolio/' : '',
 };
 
 module.exports = nextConfig;
